@@ -7,7 +7,7 @@ This Chrome extension injects a button on IMDb movie pages. It fetches movie dat
 ## Features
 
 - Finds the movie title and year on IMDb
-- Fetches the corresponding URL from your local API (e.g., `http://127.0.0.1:8000/<title>+<year>`)
+- Fetches the corresponding URL from your local API (e.g., `<api-url>/<title>+<year>`)
 - Adds a styled button next to the movie title
 - Fully inline CSS styles — no external classes or Tailwind used
 - Opens Rezka page in a new tab
