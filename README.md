@@ -38,8 +38,8 @@ Clone the repository
 Build with Vite:
 
 ```bash
-npm install
-npm run build
+pnpm install
+pnpm run build
 ```
 
 Open Chrome → chrome://extensions/
