@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Vue Inject Example",
+  "version": "1.0.0",
+  "description": "Simple Vue + TS + Tailwind Chrome extension",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
